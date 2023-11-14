@@ -1,0 +1,56 @@
+:root {
+  --hol-red: #e1343a;
+}
+
+body {
+  max-width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+div {
+  padding: 2px 8px;
+}
+
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
+.App-header img {
+  width: 200px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  border-bottom: 3px solid var(--hol-red);
+}
+
+.App-header h1 {
+  margin: auto auto auto 0;
+  color: var(--hol-red);
+}
+
+.App-body p {
+  margin: 48px 0 0 32px;
+}
+
+.App-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 3px solid var(--hol-red);
+}
+
+.App-footer p {
+  text-align: center;
+  padding: 16px 0;
+}
